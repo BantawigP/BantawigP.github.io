@@ -21,3 +21,6 @@ a {
     margin-right: auto;
     width: 50%;
   }
+ul{
+list-style-type: none;
+}
