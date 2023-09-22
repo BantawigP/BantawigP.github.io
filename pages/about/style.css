@@ -3,3 +3,6 @@ body{
     background-color: aliceblue;
     text-align: center;
 }
+ul {
+    list-style-type: none;
+  }
