@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: #D9D9D9;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+ 
+}
+
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #71E9E2;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+.container-fluid{
+  background-color: #48C2BA;
+}
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.content { 
+  padding: 4em;
+  background-color: #48C2BA; 
+}
+
+.wrapper2 {
+  display: flex;
+  height: 100%;
+}
+.sidecontent { 
+  padding: 4em; 
+  background-color: #867C22;
+}
+.side-sidecontent{
+  padding: 4em; 
+  background-color: #0106E1;
+}
+.wrapper {
+  text-align: center;
+  
+}
+
+.content {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  margin: 50px 0;
+}
+
+
+.income a {
+  color: black;
+  background-color: #D5F1DB;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 30px 0;
+}
+
+.goals a {
+  color: white;
+  background-color: #867C22;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+
+.expenses a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+
+.plus a {
+  color: black;
+  
+}
+.wrapper2 {
+  text-align: center;
+}
+
+.sidecontent {
+  background-color: #867C22;
+  padding: 20px;
+  border-radius: 10px;
+}
+.travel a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+.skincare a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+.transport a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+.savings a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+.addgoal a {
+  color: white;
+  background-color: #223886;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+.side_sidecontent h p {
+  background-color: #867C22;
+  padding: 20px;
+  border-radius: 10px;
+}
